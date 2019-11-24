@@ -12,11 +12,11 @@ namespace ConsoleApplication1
         {
             while (true)
             {
-                Console.WriteLine("+");
-                Console.WriteLine("-");
-                Console.WriteLine("*");
-                Console.WriteLine("/");
-                Console.WriteLine("Exit");
+                Console.WriteLine("1. +");
+                Console.WriteLine("2. -");
+                Console.WriteLine("3. *");
+                Console.WriteLine("4. /");
+                Console.WriteLine("5. Exit");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 5)
                     break;
