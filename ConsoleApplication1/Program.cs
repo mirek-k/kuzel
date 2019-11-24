@@ -18,6 +18,8 @@ namespace ConsoleApplication1
                 Console.WriteLine("/");
                 Console.WriteLine("Exit");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
+                if (menuOption == 5)
+                    break;
             }
           
         }
