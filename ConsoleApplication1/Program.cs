@@ -10,6 +10,16 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                Console.WriteLine("+");
+                Console.WriteLine("-");
+                Console.WriteLine("*");
+                Console.WriteLine("/");
+                Console.WriteLine("Exit");
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+            }
+          
         }
     }
 }
